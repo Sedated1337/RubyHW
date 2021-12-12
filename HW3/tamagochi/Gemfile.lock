@@ -1,0 +1,19 @@
+GIT
+  remote: https://github.com/Sedated1337/RubyHW
+  revision: 84d32c1f88c62fb77e3529e1430a1bc25d5d3dbe
+  branch: main
+  glob: HW3/content/*.gemspec
+  specs:
+    print_html (0.0.4)
+
+GEM
+  specs:
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  print_html!
+
+BUNDLED WITH
+   2.2.32

@@ -1,0 +1,3 @@
+# frozen_string_literal: true
+
+gem 'print_html', git: 'https://github.com/Sedated1337/RubyHW', branch: 'main', glob: 'HW3/content/*.gemspec'
