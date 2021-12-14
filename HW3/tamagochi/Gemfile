@@ -4,4 +4,4 @@ source 'https://rubygems.org'
 
 gem 'rubocop', require: false
 
-gem 'print_html', git: 'https://github.com/Sedated1337/Print_html
+gem 'print_html', git: 'https://github.com/Sedated1337/Print_html'
