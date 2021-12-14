@@ -1,19 +1,39 @@
 GIT
-  remote: https://github.com/Sedated1337/RubyHW
-  revision: 84d32c1f88c62fb77e3529e1430a1bc25d5d3dbe
-  branch: main
-  glob: HW3/content/*.gemspec
+  remote: https://github.com/Sedated1337/Print_html
+  revision: 94c874f94df6fc66e73c9b124907d732b2fd281e
   specs:
     print_html (0.0.4)
 
 GEM
+  remote: https://rubygems.org/
   specs:
+    ast (2.4.2)
+    parallel (1.21.0)
+    parser (3.0.3.2)
+      ast (~> 2.4.1)
+    rainbow (3.0.0)
+    regexp_parser (2.2.0)
+    rexml (3.2.5)
+    rubocop (1.23.0)
+      parallel (~> 1.10)
+      parser (>= 3.0.0.0)
+      rainbow (>= 2.2.2, < 4.0)
+      regexp_parser (>= 1.8, < 3.0)
+      rexml
+      rubocop-ast (>= 1.12.0, < 2.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 1.4.0, < 3.0)
+    rubocop-ast (1.15.0)
+      parser (>= 3.0.1.1)
+    ruby-progressbar (1.11.0)
+    unicode-display_width (2.1.0)
 
 PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
   print_html!
+  rubocop
 
 BUNDLED WITH
    2.2.32

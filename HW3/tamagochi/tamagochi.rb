@@ -3,6 +3,7 @@
 require 'bundler'
 Bundler.require
 
+
 class Pet
   attr_accessor :name, :health, :eat, :play, :sleep, :hygiene, :tray, :mood
 
